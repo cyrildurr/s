@@ -1,0 +1,42 @@
+aside {
+  background-color: #af9f96;
+  width: 320px;
+  min-width: 320px;
+  max-width: 320px;
+  padding: 28px;
+  padding-top: 180px;
+  max-height: 100%;
+  min-height: 100vh;
+  overflow: auto;
+}
+
+aside {
+  font-size: 20px;
+}
+
+aside ul li i {
+  width: 24px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-right: 12px;
+}
+
+aside li {
+  margin-bottom: 34px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+
+aside li a {
+  color: #fde8db;
+}
+
+aside li a.active {
+  color: #ffffff;
+}
+
+aside li a:hover {
+  color: #ffffff;
+}

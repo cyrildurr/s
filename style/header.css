@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+header {
+  background-image: url(/./assets/wallpaper.jpeg);
+  background-size: cover;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.header-content a h1,
+.header-content a h2 {
+  color: #6e645e;
+}
+
+.header-content a:hover h1,
+.header-content a:hover h2 {
+  color: #af9f96;
+}
+
+header .header-content {
+  display: flex;
+  width: 1200px;
+  align-items: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+header .header-content div {
+  width: 600px;
+}
+
+header .header-content h1 {
+  font-family: "Montserrat Subrayada", sans-serif;
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 1;
+}
+
+header .header-content button {
+  background-color: #af9f96;
+  border: 0px;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 600;
+  padding: 20px;
+  margin-top: 28px;
+  color: #fde8db;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 12px;
+}
+
+header .header-content button:hover,
+header .header-content button.active {
+  background-color: #d6c4ba;
+  color: #ffffff;
+}
+
+.left-part h3 {
+  font-size: 38px;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.left-part h2 {
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 20px;
+  margin-bottom: 32px;
+}
+
+.header-content.page-header-content nav a div.title h1 {
+  font-size: 40px;
+  color: #af9f96;
+}
+
+.header-content.page-header-content nav a div.title h2 {
+  font-size: 16px;
+  color: #af9f96;
+}
+
+.page-header-content nav {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  align-items: center;
+}
+
+.page-header-content nav ul {
+  display: flex;
+  justify-content: right;
+  font-family: "Montserrat", sans-serif;
+}
+
+.page-header-content nav ul li a {
+  display: inline-block;
+  margin-left: 40px;
+  font-weight: 600;
+  color: #fde8db;
+  background-color: #af9f96;
+  width: 120px;
+  text-align: center;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 4px;
+}
+
+.page-header-content nav ul li a.active {
+  color: #ffffff;
+  background-color: #d6c4ba;
+}
+
+.page-header-content nav ul li a:hover {
+  color: #ffffff;
+  background-color: #d6c4ba;
+}

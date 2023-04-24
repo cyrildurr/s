@@ -1,0 +1,554 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* Global */
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+article {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+article h1 {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  color: #d6c4ba;
+  margin-top: 28px;
+}
+
+article h1 i {
+  margin-right: 12px;
+  font-size: 28px;
+}
+
+.tag {
+  background-color: #af9f96;
+  color: #fde8db;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.tag span {
+  font-weight: 600;
+}
+
+.tag i {
+  font-size: 13px;
+  margin-right: 6px;
+}
+
+/* Oeuvres */
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.roman-01 .fa-angle-down {
+  display: none;
+}
+
+.roman-02 .fa-angle-down {
+  display: none;
+}
+
+.livre-content {
+  margin-bottom: 40px;
+}
+
+.livre i {
+  cursor: pointer;
+}
+
+.book-header {
+  display: flex;
+  align-items: center;
+}
+
+.book-header img {
+  width: 240px;
+}
+
+.book-header-infos {
+  margin-left: 40px;
+}
+
+.book-header-infos p span {
+  font-weight: 500;
+}
+
+.book-header-infos p a {
+  color: #6e645e;
+}
+
+.book-header-infos p a:hover {
+  color: #af9f96;
+}
+
+.book-header-infos p i {
+  color: #af9f96;
+  font-size: 14px;
+}
+
+.book-main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fdf9f6;
+  padding: 40px;
+  margin-top: 40px;
+  border-radius: 8px;
+}
+
+.book-main-img img {
+  width: 220px;
+  border-radius: 8px;
+}
+.book-main {
+  width: 860px;
+}
+
+.book-main p {
+  padding-right: 40px;
+}
+
+.bold-italic {
+  font-weight: 600;
+  font-style: italic;
+}
+
+.book-quote {
+  margin-top: 40px;
+  margin-bottom: 28px;
+}
+
+.book-quote i {
+  color: #af9f96;
+  margin-right: 8px;
+}
+
+b {
+  font-weight: 600;
+}
+
+.book-collection span {
+  font-weight: 500;
+}
+
+.book-collection {
+  color: #af9f96;
+  margin-bottom: 40px;
+}
+
+.buy-button {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.buy-button i {
+  margin-right: 8px;
+}
+
+.icons-buy {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.icons-buy img {
+  padding: 10px;
+  background-color: #fdf9f6;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.icons-buy img:hover {
+}
+
+.book-buy {
+  display: flex;
+  align-items: center;
+}
+
+.book-buy-image img {
+  width: 480px;
+  margin-right: 40px;
+}
+
+.libraire-infos {
+  margin-top: 40px;
+  font-size: 16px;
+}
+
+.libraire-infos span {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.libraire-infos a {
+  color: #d6c4ba;
+  font-weight: 600;
+}
+
+.arti-header img {
+  width: 230px;
+}
+
+.arti-header {
+  margin-top: 34px;
+}
+
+.visus-img {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.visus-img img {
+  width: 180px;
+  height: 248px;
+  object-fit: cover;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 8px;
+}
+
+.title-page {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1;
+  color: #af9f96;
+}
+
+/* Articles */
+
+.articles {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 34px;
+}
+
+.articles2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 34px;
+}
+
+.articles2 div {
+  width: 45%;
+  margin-left: 18px;
+  margin-right: 18px;
+  background-color: #fdf9f6;
+  padding: 40px;
+  border-radius: 8px;
+  margin-bottom: 34px;
+}
+
+.articles2 img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.articles2 .art-date {
+  font-weight: bold;
+}
+
+.articles div {
+  width: 30%;
+  margin-left: 18px;
+  margin-right: 18px;
+  background-color: #fdf9f6;
+  padding: 40px;
+  border-radius: 8px;
+  margin-bottom: 34px;
+}
+
+.articles img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.art-date {
+  text-align: center;
+  border-bottom: 1px solid #d6c4ba;
+  margin-bottom: 4px;
+}
+
+.art-title {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.art-infos {
+  text-align: center;
+}
+
+.art-title1 {
+  font-weight: bold;
+  text-align: center;
+  border-bottom: 1px solid #d6c4ba;
+  margin-bottom: 4px;
+}
+
+.UMAC {
+  line-height: 2.4;
+  background-color: #fdf9f6;
+  padding: 40px;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+
+.UMAC a {
+  color: #2b4761;
+}
+
+.UMAC p {
+  margin-bottom: 24px;
+}
+
+.umac-logo {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.umac-logo p {
+  text-align: center;
+  font-weight: bold;
+}
+
+#random-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+#random-list li {
+  margin-left: 4px;
+  margin-right: 4px;
+  background-color: #d6c4ba;
+  color: #ffffff;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  line-height: 1;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.travaux-imahes {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.travaux-imahes img {
+  width: 100px;
+  height: auto;
+  margin-left: 14px;
+  margin-right: 14px;
+  margin-top: 14px;
+  border-radius: 8px;
+}
+
+.biopart1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.biopart1 div {
+  width: 680px;
+}
+
+.biopart1 img {
+  display: block;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  margin-left: 40px;
+}
+
+.biotitle {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.4;
+  color: #d6c4ba;
+  margin-bottom: 40px;
+  margin-top: 24px;
+}
+
+.imgs-bio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.imgs-bio img {
+  width: 420px;
+  height: 320px;
+  object-fit: cover;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 16px;
+}
+
+.titre-ouvrage {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1;
+  margin-bottom: 40px;
+  color: #d6c4ba;
+  margin-top: 28px;
+}
+
+.center-faq h5 {
+  font-size: 18px;
+  color: #d6c4ba;
+}
+
+.cat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cat img {
+  margin-left: 40px;
+}
+
+.amazon {
+  text-align: center;
+}
+
+.amazon a {
+  color: #2b4761;
+}
+
+.bigoo p {
+  text-align: center;
+}
+
+.bigoo .date {
+  font-weight: 500;
+}
+
+.page-header-content nav ul li a.spec {
+  width: 200px;
+}
+
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#gallery img {
+  width: 320px;
+  height: 320px;
+  object-fit: cover;
+  margin: 8px;
+  cursor: pointer;
+}
+
+#viewer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: none;
+  overflow-y: auto;
+}
+
+#viewer.open {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#viewer img {
+  max-width: 80%;
+  max-height: 80%;
+  margin: auto;
+}
+
+#viewer figcaption {
+  color: white;
+}
+
+.visu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#viewer {
+  text-align: center;
+}
+
+.visu button {
+  height: 100%;
+  padding-top: 400px;
+  padding-bottom: 400px;
+  padding-left: 100px;
+  padding-right: 100px;
+  cursor: pointer;
+}
+
+html body div.page-container div.page-content section article div.UMAC figure#viewer.open div div.visu button {
+  box-shadow: 0px;
+  -webkit-box-shadow: 0px 0px 0em #e34069;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  border: 0px solid #0a0a0a;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.visu span i {
+  font-size: 60px;
+  color: #ffffff;
+  cursor: pointer;
+
+  font-weight: bold;
+}
+
+/* Index */
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.signature-auteur {
+  font-weight: 600;
+  margin-top: 20px;
+  display: block;
+}

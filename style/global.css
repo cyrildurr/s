@@ -16,6 +16,10 @@
   text-decoration: none;
 }
 
+.sytadel {
+ height: 24px; 
+}
+
 body {
   color: #6e645e;
   font-family: "Montserrat", sans-serif;

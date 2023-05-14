@@ -70,6 +70,13 @@ const allImages = [
     link: "script/gal10.png",
     legend: `Illustration de la nouvelle <b><i>La Meute</b></i> (issue du recueil <b><i>Jour de Neige</b></i>), par <b>Daniel Gattone.</b>`,
   },
+  
+  
+  {
+    id: 11,
+    link: "script/gal11.png",
+    legend: `Illustration de <b>Daniel Gattone</b> pour le recueil de nouvelles  <b><i>Jour de Neige.</b></i>`,
+  },
 ];
 const gallery = document.querySelector("#gallery");
 const viewer = document.querySelector("#viewer");

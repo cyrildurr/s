@@ -14,55 +14,45 @@ const allImages = [
   },
 
   {
-    id: 3,
+      id: 3,
     link: "script/gal03.jpg",
     legend: `Illustration de <b>Daniel Gattone</b> pour le recueil de nouvelles  <b><i>Jour de Neige.</b></i>`,
-            `,
   },
 
   {
     id: 4,
     link: "script/gal04.jpg",
-    legend: `Illustration d'<b>Alain Mathiot</b> pour la nouvelle <b><i>Blessures de Lame.</b></i>
-            `,
+    legend: `Illustration d'<b>Alain Mathiot</b> pour la nouvelle <b><i>Blessures de Lame.</b></i>`,
   },
 
   {
     id: 5,
     link: "script/gal05.png",
-    legend: `Illustration de <b>Corentin Martinage</b> pour la nouvelle <b><i>Jeu d'Auteur.</b></i>
-            `,
+    legend: `Illustration de <b>Corentin Martinage</b> pour la nouvelle <b><i>Jeu d'Auteur.</b></i>`,
   },
 
   {
     id: 6,
     link: "script/gal06.png",
-    legend: `Illustration de <b>Corentin Martinage</b> pour la nouvelle <b><i>Jeu d'Auteur.</b></i>
-            `,
+    legend: `Illustration de <b>Corentin Martinage</b> pour la nouvelle <b><i>Jeu d'Auteur.</b></i>`,
   },
 
   {
     id: 7,
     link: "script/gal07.png",
-    legend: ` Illustration de quatrième de couverture par <b>Sergio Yolfa</b>, pour l'album  <b><i>The Gutter.</b></i>  Aplats par Cyril Durr.
-       
-            `,
+    legend: ` Illustration de quatrième de couverture par <b>Sergio Yolfa</b>, pour l'album  <b><i>The Gutter.</b></i>  Aplats par Cyril Durr.`,
   },
 
   {
     id: 8,
     link: "script/gal08.jpg",
-    legend: `Illustration inspirée du personnage de Sweetlord, par <b>Daniel Gattone</b> et <b>Emmanuel Bonnet</b>.
-       
-            `,
+    legend: `Illustration inspirée du personnage de Sweetlord, par <b>Daniel Gattone</b> et <b>Emmanuel Bonnet</b>.`,
   },
 
   {
     id: 9,
     link: "script/gal09.png",
-    legend: ` Projet de cover pour <b><i>Slenderman</b></i>. Dessin de <b>Daniel Gattone</b>, couleurs et retouches graphiques d'<b>Emmanuel Bonnet</b>.
-       
-            `,
+    legend: ` Projet de cover pour <b><i>Slenderman</b></i>. Dessin de <b>Daniel Gattone</b>, couleurs et retouches graphiques d'<b>Emmanuel Bonnet</b>.`,
   },
 
   {
@@ -71,13 +61,13 @@ const allImages = [
     legend: `Illustration de la nouvelle <b><i>La Meute</b></i> (issue du recueil <b><i>Jour de Neige</b></i>), par <b>Daniel Gattone.</b>`,
   },
   
-  
   {
         id: 11,
-    link: "script/gal11.jpg",
-    legend: `Illustration d'<b>Alain Mathiot</b> pour la nouvelle <b><i>Blessures de Lame.</b></i>
-  },
+        link: "script/gal11.jpg",
+        legend: `Illustration d'<b>Alain Mathiot</b> pour la nouvelle <b><i>Blessures de Lame.</b></i>`
+   },
 ];
+
 const gallery = document.querySelector("#gallery");
 const viewer = document.querySelector("#viewer");
 const viewerImage = viewer.querySelector("img");

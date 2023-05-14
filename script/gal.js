@@ -16,7 +16,7 @@ const allImages = [
   {
     id: 3,
     link: "script/gal03.jpg",
-    legend: `Illustration d'<b>Alain Mathiot</b> pour la nouvelle <b><i>Blessures de Lame.</b></i>
+    legend: `Illustration de <b>Daniel Gattone</b> pour le recueil de nouvelles  <b><i>Jour de Neige.</b></i>`,
             `,
   },
 
@@ -73,9 +73,9 @@ const allImages = [
   
   
   {
-    id: 11,
+        id: 11,
     link: "script/gal11.jpg",
-    legend: `Illustration de <b>Daniel Gattone</b> pour le recueil de nouvelles  <b><i>Jour de Neige.</b></i>`,
+    legend: `Illustration d'<b>Alain Mathiot</b> pour la nouvelle <b><i>Blessures de Lame.</b></i>
   },
 ];
 const gallery = document.querySelector("#gallery");

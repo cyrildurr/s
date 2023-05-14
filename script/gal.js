@@ -74,7 +74,7 @@ const allImages = [
   
   {
     id: 11,
-    link: "script/gal11.png",
+    link: "script/gal11.jpg",
     legend: `Illustration de <b>Daniel Gattone</b> pour le recueil de nouvelles  <b><i>Jour de Neige.</b></i>`,
   },
 ];

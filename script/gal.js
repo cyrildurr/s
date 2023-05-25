@@ -68,7 +68,7 @@ const allImages = [
   },
   {
     id: 12,
-    link: "script/gal2.png",
+    link: "script/gal12.png",
     legend: `Illustration de <b>Julien Schwartz</b> pour le roman <b><i>L'Ombre de Doreckam.</b></i>`,
   },
 ];

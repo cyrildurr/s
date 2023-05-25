@@ -216,8 +216,8 @@ b {
 }
 
 .visus-img img {
-  width: 180px;
-  height: 248px;
+  width: 240px;
+  height: 330px;
   object-fit: cover;
   margin-left: 20px;
   margin-right: 20px;
@@ -525,7 +525,17 @@ b {
   cursor: pointer;
 }
 
-html body div.page-container div.page-content section article div.UMAC figure#viewer.open div div.visu button {
+html
+  body
+  div.page-container
+  div.page-content
+  section
+  article
+  div.UMAC
+  figure#viewer.open
+  div
+  div.visu
+  button {
   box-shadow: 0px;
   -webkit-box-shadow: 0px 0px 0em #e34069;
   border: none;

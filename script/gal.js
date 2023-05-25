@@ -14,7 +14,7 @@ const allImages = [
   },
 
   {
-      id: 3,
+    id: 3,
     link: "script/gal03.jpg",
     legend: `Illustration de <b>Daniel Gattone</b> pour le recueil de nouvelles  <b><i>Jour de Neige.</b></i>`,
   },
@@ -60,12 +60,17 @@ const allImages = [
     link: "script/gal10.png",
     legend: `Illustration de la nouvelle <b><i>La Meute</b></i> (issue du recueil <b><i>Jour de Neige</b></i>), par <b>Daniel Gattone.</b>`,
   },
-  
+
   {
-        id: 11,
-        link: "script/gal11.jpg",
-        legend: `Illustration d'<b>Alain Mathiot</b> pour la nouvelle <b><i>Blessures de Lame.</b></i>`
-   },
+    id: 11,
+    link: "script/gal11.jpg",
+    legend: `Illustration d'<b>Alain Mathiot</b> pour la nouvelle <b><i>Blessures de Lame.</b></i>`,
+  },
+  {
+    id: 12,
+    link: "script/gal2.png",
+    legend: `Illustration de <b>Julien Schwartz</b> pour le roman <b><i>L'Ombre de Doreckam.</b></i>`,
+  },
 ];
 
 const gallery = document.querySelector("#gallery");
@@ -90,7 +95,8 @@ allImages.forEach((image, index) => {
 });
 
 prevButton.addEventListener("click", () => {
-  currentImageIndex = (currentImageIndex - 1 + allImages.length) % allImages.length;
+  currentImageIndex =
+    (currentImageIndex - 1 + allImages.length) % allImages.length;
   updateViewer();
 });
 
@@ -100,7 +106,11 @@ nextButton.addEventListener("click", () => {
 });
 
 viewer.addEventListener("click", (e) => {
-  if (e.target !== viewerImage && e.target !== prevButton && e.target !== nextButton) {
+  if (
+    e.target !== viewerImage &&
+    e.target !== prevButton &&
+    e.target !== nextButton
+  ) {
     viewer.classList.remove("open");
   }
 });

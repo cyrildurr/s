@@ -71,6 +71,18 @@ const allImages = [
     link: "script/gal12.png",
     legend: `Illustration de <b>Julien Schwartz</b> pour le roman <b><i>L'Ombre de Doreckam.</b></i>`,
   },
+
+  {
+    id: 13,
+    link: "script/gal13.png",
+    legend: `Illustration de la nouvelle <i><b>Dernière Aube</b> (issue du recueil <b>Jour de Neige</b>), </i> par <b>Daniel Gattone.</b>`,
+  },
+
+  {
+    id: 14,
+    link: "script/gal14.png",
+    legend: `Illustration de la nouvelle <i><b>Plus léger que l’air, plus lourd que les larmes</b> (issue du recueil <b>Jour de Neige</b>), </i> par <b>Daniel Gattone.</b>`,
+  },
 ];
 
 const gallery = document.querySelector("#gallery");

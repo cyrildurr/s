@@ -260,7 +260,7 @@ b {
 
 .articles2 img {
   width: 100%;
-  height: auto;
+  height: 340px;
   border-radius: 8px;
   object-fit: cover;
 }
